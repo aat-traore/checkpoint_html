@@ -1,0 +1,55 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+
+}
+.topbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: azure;
+    padding: 20px ;
+}
+.topbar nav {
+    float: left;
+
+}
+.topbar nav a {
+    color: blue;
+    text-decoration: none;
+    margin: 0, 25px;
+    font-weight: 500;
+    padding: 30px;
+}
+.container {
+    display: flex;
+}
+.main {
+    float: left;
+    background: rgb(247, 239, 239); 
+    height: 200px;
+    width: 60%;
+    margin-top: 500px;
+}
+.sidebar {
+    float: right;
+    background-color: rgb(252, 250, 248);
+    width: 40%;
+    margin-top: 500px;
+}
+.footer_foot{
+    margin-top:200px;
+    
+    
+}
+.paragraphe{
+    margin: 100px;
+}
