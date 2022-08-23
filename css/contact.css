@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 16px;
+        font-family:roboto;
+        line-height: 1.5;
+        margin: 0;
+        justify-content: space-between;
+    
+    }
+    .topbar {
+        position: absolute;
+        width: 100%;
+        background-color: azure;
+        padding: 20px ;
+    }
+    .topbar .nav_link ul {
+        display:flex ;
+    
+    }
+    .topbar .nav_link ul li{
+        color: blue;
+        text-decoration: none;
+        margin: 0, 25px;
+        font-weight: 500;
+        padding: 30px; 
+    }

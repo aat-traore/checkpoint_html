@@ -4,25 +4,23 @@ box-sizing: border-box;
 
 body {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family:roboto;
     line-height: 1.5;
     margin: 0;
+    justify-content: space-between;
 
 }
 .topbar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
+    position: absolute;
     width: 100%;
     background-color: azure;
     padding: 20px ;
 }
-.topbar nav {
-    float: left;
+.topbar .nav_link ul {
+    display:flex ;
 
 }
-.topbar nav a {
+.topbar .nav_link ul li{
     color: blue;
     text-decoration: none;
     margin: 0, 25px;
